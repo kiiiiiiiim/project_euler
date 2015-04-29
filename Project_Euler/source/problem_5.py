@@ -6,8 +6,9 @@ Created on 2015. 4. 29.
 def compute():
     num_list = [x for x in range(2, 21)]
     prime_list = []
-    print num_list
     max = 1
+
+    # prime compute
     for x in num_list:
         max *= x
         flag = True
@@ -18,11 +19,14 @@ def compute():
         
         if flag:        
             prime_list.append(x)
+            
     print num_list
     print prime_list
     
     
     count_added = 1
+    
+    # compute add value
     for x in prime_list:
         count_added *= x
     
@@ -30,6 +34,8 @@ def compute():
     print "add value : ", count_added
     flag = False
     count = count_added
+    
+    # answer
     while(count <= max):
         flag = True
         for y in range(1, 22):

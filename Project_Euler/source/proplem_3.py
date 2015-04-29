@@ -1,7 +1,7 @@
 import time
 
 
-max = 142093402
+max = 142093
 computed_max = max
 start = time.time()
 list = []

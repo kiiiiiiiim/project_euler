@@ -3,6 +3,7 @@ class sigma():
         self.n = n
         
     def get_square_sum(self):
+        # sigma °ø½Ä 
         return (self.n * (self.n + 1) * ((2 * self.n) + 1)) / 6
     
     def get_sum_square(self):
